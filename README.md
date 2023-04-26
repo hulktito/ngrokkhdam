@@ -1,43 +1,39 @@
-# Free-windows-RDP-Method-ngrok-rdp
-Description
-What is RDP?
+## Description
+**What is RDP?**<br>
+* RDP (Remote Desktop Protocol) is a network communications protocol developed by Microsoft, which allows users to connect to another computer from a remote location.
 
-RDP (Remote Desktop Protocol) is a network communications protocol developed by Microsoft, which allows users to connect to another computer from a remote location.
-How long does this RDP stay active?
+**How long does this RDP stay active?**<br>
+* This RDP stays active for up to 6 hours.<br>
 
-This RDP stays active for up to 6 hours.
-How to use it?
-HOW TO USE:
+## How to use it?
 
+<h4> HOW TO USE: </h4>    
+<p><a href="https://youtu.be/ZTSch-kF1xY"><img src="https://img.shields.io/badge/How%20to%20Use-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 
-First Step
-Press the fork button
-Login or signup to ngrok: https://ngrok.com
-Now visit here for token: https://dashboard.ngrok.com/auth/your-authtoken
-You'll get token from here. It'll be needed to the next step.
+#### First Step
+1. Press the **fork** button  
+2. Login or signup to ngrok: https://ngrok.com
+3. Now visit here for token: https://dashboard.ngrok.com/auth/your-authtoken
+> You'll get token from here. It'll be needed to the next step.
 
-Second Step
-In your forked repo: Go to Settings > Secrets > Action > New Repository Secret
-In the name section, enter this text: NGROK_AUTH_TOKEN
-In the value section, enter the ngrok token
-Then press Add Secret
-Now go to Action > AWS (Left Menu) > Run Workflow
-Refresh the page and go to AWS > build option
-You'll get IP, Username & Password from Connect to RDP section.
-Third Step
-Search Remote Desktop Connection from Windows Start Menu and open.
-Put IP without tcp:// and enter Username & click Connect.
-Later on, put the password for credential/auth.
-ss
+#### Second Step
+1. In your forked repo: **Go to Settings > Secrets > Action > New Repository Secret**
+2. In the name section, enter this text: **NGROK_AUTH_TOKEN**
+3. In the value section, enter the **ngrok token**
+4. Then press **Add Secret**
+5. Now go to **Action > AWS (Left Menu) > Run Workflow**
+6. Refresh the page and go to **AWS > build** option
+7. You'll get IP, Username & Password from **Connect to RDP** section.
 
+#### Third Step
+1. Search **Remote Desktop Connection** from Windows Start Menu and open.
+2. Put IP without **tcp://** and enter Username & click **Connect**.
+3. Later on, put the password for credential/auth.
+<img src="https://i.imgur.com/WQr9N1A.png" alt="ss" width="40%"/>
 
+## Screenshots
+<img src="https://i.imgur.com/vgD2owk.png" alt="ss" width="90%"/>
+<img src="https://i.imgur.com/8XBLUqf.png" alt="ss" width="90%"/>
 
-![image](https://user-images.githubusercontent.com/105972220/234501248-1bc78448-e652-4201-8f6b-e27eeea4ed65.png)
-
-
-Screenshots
-ss![image](https://user-images.githubusercontent.com/105972220/234501298-d6275e78-650c-4b8d-81ce-4b4b26dca5cd.png)
-
-
-ss
-![image](https://user-images.githubusercontent.com/105972220/234501355-81b3cf26-1e45-4fae-bf4b-cb7eb1a1c387.png)
+## License
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
